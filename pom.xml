@@ -33,6 +33,12 @@
 		</developer>
 	</developers>
 
+	<scm>
+		<connection>scm:git:https://github.com/wubin28/maven-release-demo.git</connection>
+		<developerConnection>scm:git:https://github.com/wubin28/maven-release-demo.git</developerConnection>
+		<url>https://github.com/wubin28/maven-release-demo</url>
+	</scm>
+
 	<dependencies>     
 		<dependency>       
 			<groupId>junit</groupId>       

@@ -1,10 +1,11 @@
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 
 public class HelloWorldTest {
@@ -20,7 +21,8 @@ public class HelloWorldTest {
 	public void testSayHello() {
 		HelloWorld hw = new HelloWorld();
 		hw.sayHello();
-		Assert.assertEquals("Hello World", outStream.toString());
+		assertEquals("Hello World", outStream.toString());
+		assertEquals(1, 4-3);
 	}
 	
 	@After

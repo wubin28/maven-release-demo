@@ -23,6 +23,7 @@ public class HelloWorldTest {
 		hw.sayHello();
 		assertEquals("Hello World", outStream.toString());
 		assertEquals(1, 4-3);
+		assertEquals(1, 3-2);
 	}
 	
 	@After
